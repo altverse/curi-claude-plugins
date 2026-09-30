@@ -1,0 +1,15 @@
+{
+  "name": "curi-claude-plugins",
+  "description": "Claude plugins from Curi (askcuri.com) — channel campaign planning, drafts only.",
+  "owner": {
+    "name": "Blackhoods (Curi)",
+    "email": "calix@askcuri.com"
+  },
+  "plugins": [
+    {
+      "name": "channel",
+      "source": "./channel",
+      "description": "channel campaign planning (drafts only)"
+    }
+  ]
+}

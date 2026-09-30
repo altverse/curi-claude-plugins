@@ -1,0 +1,8 @@
+{
+  "name": "channel",
+  "description": "Plan topics and email campaigns in channel (askcuri.com) from Claude — drafts only; sending stays in channel web.",
+  "version": "0.1.0",
+  "author": { "name": "Blackhoods (Curi)", "email": "calix@askcuri.com" },
+  "homepage": "https://askcuri.com/docs/claude",
+  "license": "MIT"
+}

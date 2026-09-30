@@ -1,0 +1,1 @@
+{ "mcpServers": { "channel": { "type": "http", "url": "https://api-channel.askcuri.com/mcp" } } }
