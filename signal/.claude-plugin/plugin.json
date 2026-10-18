@@ -1,0 +1,8 @@
+{
+  "name": "signal",
+  "description": "Draft, publish and read results of surveys in signal (askcuri.com) from Claude. Publishing needs the survey title as confirmation.",
+  "version": "0.1.0",
+  "author": { "name": "Blackhoods (Curi)", "email": "calix@askcuri.com" },
+  "homepage": "https://askcuri.com/en/docs/claude",
+  "license": "MIT"
+}

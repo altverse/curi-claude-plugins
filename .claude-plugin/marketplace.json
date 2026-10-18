@@ -1,6 +1,6 @@
 {
   "name": "curi-claude-plugins",
-  "description": "Claude plugins from Curi (askcuri.com) — channel campaign planning, drafts only.",
+  "description": "Claude plugins from Curi (askcuri.com) — channel campaign planning (drafts only) and signal surveys.",
   "owner": {
     "name": "Blackhoods (Curi)",
     "email": "calix@askcuri.com"
@@ -10,6 +10,11 @@
       "name": "channel",
       "source": "./channel",
       "description": "channel campaign planning (drafts only)"
+    },
+    {
+      "name": "signal",
+      "source": "./signal",
+      "description": "signal surveys — AI drafts, publish with title confirmation, masked results and report PDFs"
     }
   ]
 }
