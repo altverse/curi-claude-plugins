@@ -11,7 +11,7 @@ description: Use when the user wants to create, check, publish or read the resul
 4. Results: `list_surveys` → `get_results` for counts, completion, drop-off and coded themes. Free-text answers and quotes come back masked; don't try to identify respondents.
 5. Report: `get_report_pdf_link`. If it returns `queued` or `running`, tell the user it's being built and check again a little later; a `ready` link works for 15 minutes.
 
-Plans: reading needs the Claude connector (read) feature, which every plan has; drafting and publishing need Claude connector (write), included from Starter up. If a tool returns `billing.feature_not_in_plan`, tell the user their plan doesn't include it and share the `billing_url` it returns.
+Plans: every plan (Free included) can read and draft through the connector — a draft only uses the question types the plan allows, and anything left out is listed with an upgrade note. Publishing through the connector is included from Starter up; on Free, publish from the signal editor instead. If a tool returns `billing.feature_not_in_plan`, tell the user their plan doesn't include it and share the `billing_url` it returns.
 
 A new account with no team gets an example team with one sample survey and synthetic responses. There you can read everything and draft up to three surveys a day, but publishing is turned off (`mcp.example_publish`).
 
